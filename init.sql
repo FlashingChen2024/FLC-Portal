@@ -17,5 +17,5 @@ CREATE TABLE IF NOT EXISTS `admins` (
 
 -- 插入默认管理员账号
 INSERT INTO `admins` (`username`, `password`) 
-SELECT 'FlashingChen', MD5('evan520robby')
+SELECT 'your_name', MD5('your_pass')
 WHERE NOT EXISTS (SELECT 1 FROM `admins` WHERE `username` = 'admin');
