@@ -56,7 +56,7 @@ define('DB_NAME', 'chuansong'); // 数据库名称
 define('ADMIN_USER', 'admin');         // 管理员用户名
 define('ADMIN_PASS', md5('admin123')); // 管理员密码（MD5加密）
 ```
-
+> 记得同时还要修改**init.sql**中的管理员用户名和密码哦~
 ### 3. 配置Web服务器
 #### Apache配置示例：
 ```apacheconf
